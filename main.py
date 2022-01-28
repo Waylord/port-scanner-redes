@@ -45,7 +45,6 @@ class PortScanner:
         th3 = Thread(target=self.port_scanner, args=(ip_host, ports3,)).start()
         th4 = Thread(target=self.port_scanner, args=(ip_host, ports4,)).start()
 
-/Users/millenacosta/PycharmProjects/pythonProject/main.py
 
 PortScanner()
 
